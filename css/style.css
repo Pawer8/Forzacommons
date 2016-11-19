@@ -100,7 +100,7 @@ h3 {
 h4 {
     text-align: Left;
     font-family: 'Futura', sans-serif;
-    font-size: 34px;
+    font-size: 38px;
     font-weight: bold;
     color: #ffffff;
 }
@@ -135,7 +135,26 @@ h6 {
 h8 {
     text-align: center;
     font-family: 'Futura', sans-serif;
-    font-size: 38px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+h9 {
+    text-align: center;
+    font-family: 'akz', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 5px;
+}
+
+h10 {
+    text-align: center;
+    font-family: 'Futura', sans-serif;
+    font-size: 50px;
     font-weight: bold;
     color: #000000;
     margin-left: 5px;
@@ -345,12 +364,12 @@ p23 {
 
 .modalcenter {
     text-align: center;
+    margin-bottom: 15px;
 }
 
-.popular-modal .modal-content h2 {
+.popular-modal .modal-content h8 {
     margin-top: 0px;
     margin-bottom: 30px;
-    font-size: 3em;
 }
 
 .popular-modal .modal-content img {
@@ -574,7 +593,7 @@ p23 {
 /*MODALCARS MODAL*/
 
 #MODALCARS .popular-item {
-    margin-bottom: 20px;
+    margin-bottom: -20px;
     margin-top: 0px;
     padding: 10px;
 }
@@ -582,7 +601,7 @@ p23 {
 #MODALCARS .popular-item .popular-link {
     display: block;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
 }
 
 #MODALCARS .popular-item .popular-link .caption {
@@ -619,7 +638,7 @@ p23 {
 #MODALCARS .popular-item .popular-link .caption .caption-content h31,
 #MODALCARS .popular-item .popular-link .caption .caption-content h32,
 #MODALCARS .popular-item .popular-link .caption .caption-content h4 {
-    margin: 0;
+    margin: 0PX;
 }
 
 #MODALCARS * {
