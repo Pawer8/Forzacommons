@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../css/fonts/911fonts.com_futuraextrablackitalic__-_911fonts.com-fonts-izkk-webfont.eot');
+    src: url('../css/fonts/911fonts.com_futuraextrablackitalic__-_911fonts.com-fonts-izkk-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/911fonts.com_futuraextrablackitalic__-_911fonts.com-fonts-izkk-webfont.woff') format('woff'), url('../css/fonts/911fonts.com_futuraextrablackitalic__-_911fonts.com-fonts-izkk-webfont.ttf') format('truetype'), url('../css/fonts/911fonts.com_futuraextrablackitalic__-_911fonts.com-fonts-izkk-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'akz';
+    src: url('../css/fonts/akzidenzgrotesk_bq_extended_medium-webfont.eot');
+    src: url('../css/fonts/akzidenzgrotesk_bq_extended_medium-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/akzidenzgrotesk_bq_extended_medium-webfont.woff') format('woff'), url('../css/fonts/akzidenzgrotesk_bq_extended_medium-webfont.ttf') format('truetype'), url('../css/fonts/akzidenzgrotesk_bq_extended_medium-webfont.svg#webfont') format('svg');
+}
+
+
+/*Typography*/
+
+tr {
+    mso-height-source: auto;
+    mso-style-parent: style0;
+    font-family: 'akz', sans-serif;
+    mso-generic-font-family: auto;
+    mso-font-charset: 0;
+    font-size: 18px;
+    color: #252222;
+    text-align: left;
+}
+
+col {
+    mso-width-source: auto;
+}
+
+br {
+    mso-data-placement: same-cell;
+}
+
+.style0 {
+    mso-number-format: General;
+    text-align: general;
+    vertical-align: bottom;
+    white-space: nowrap;
+    mso-rotate: 0;
+    mso-background-source: auto;
+    mso-pattern: auto;
+    color: black;
+    font-size: 11.0pt;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Futura, sans-serif;
+    mso-font-charset: 0;
+    border: none;
+    mso-protection: locked visible;
+    mso-style-name: Normal;
+    mso-style-id: 0;
+}
+
+td {
+    mso-style-parent: style0;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    mso-ignore: padding;
+    color: black;
+    font-size: 11.0pt;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-family: Futura, sans-serif;
+    mso-font-charset: 0;
+    mso-number-format: General;
+    text-align: general;
+    vertical-align: bottom;
+    border: none;
+    mso-background-source: auto;
+    mso-pattern: auto;
+    mso-protection: locked visible;
+    white-space: nowrap;
+    mso-rotate: 0;
+}
+
+.x1 {
+    mso-style-parent: style0;
+    font-family: 'Futura', sans-serif;
+    mso-generic-font-family: auto;
+    mso-font-charset: 0;
+    font-size: 32px;
+    color: #252222;
+    text-align: left;
+    font-weight: 700;
+}
+
+.xl65 {
+    mso-style-parent: style0;
+    font-family: 'akz', sans-serif;
+    mso-generic-font-family: auto;
+    mso-font-charset: 0;
+    font-size: 18px;
+    color: #252222;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.xl66 {
+    mso-style-parent: style0;
+    font-weight: 700;
+    font-family: 'akz', sans-serif;
+    mso-generic-font-family: auto;
+    mso-font-charset: 0;
+    font-size: 18px;
+    color: #252222;
+    text-align: right;
+}
+
+.x1:active {
+    mso-style-parent: style0;
+    font-family: 'Futura', sans-serif;
+    mso-generic-font-family: auto;
+    mso-font-charset: 0;
+    font-size: 32px;
+    color: #a50000;
+    text-align: left;
+    font-weight: 700;
+}
+
+.selected {
+    mso-style-parent: style0;
+    font-family: 'Futura', sans-serif;
+    mso-generic-font-family: auto;
+    mso-font-charset: 0;
+    font-size: 32px;
+    color: #a50000;
+    text-align: left;
+    font-weight: 700;
+}
