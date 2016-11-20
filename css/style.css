@@ -132,6 +132,15 @@ h6 {
     margin-left: 5px;
 }
 
+h61 {
+    text-align: Left;
+    font-family: 'akz', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 5px;
+}
+
 h8 {
     text-align: center;
     font-family: 'Futura', sans-serif;
@@ -643,4 +652,32 @@ p23 {
 
 #MODALCARS * {
     z-index: 2;
+}
+
+#MODALCARS .popular-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /*Line color*/
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#MODALCARS .popular-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /*Line color*/
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#MODALCARS .popular-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
 }
