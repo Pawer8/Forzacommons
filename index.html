@@ -7,23 +7,85 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="forzacommons">
+    <meta name="keywords" content="forza horizon cars pawer tunes drift racingq">
+    <meta name="author" content="Pau Oliva">
     <title>Forza Commons </title>
     <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom CSS ––––––––––––––––––––––––––– -->
     <link href="css/style.css" rel="stylesheet">
-    <!--    <link href="css/style_template.css" rel="stylesheet">-->
     <!-- Custom Fonts ––––––––––––––––––––––––––– -->
-    <link href="911Fonts.com_FuturaExtraBlackItalic__-_911fonts.com-fonts-izkK.ttf" rel="stylesheet">
+    <!--<link href="911Fonts.com_FuturaExtraBlackItalic__-_911fonts.com-fonts-izkK.ttf" rel="stylesheet">-->
     <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">-->
     <!-- To add a google font and paste the link -->
     <!-- Favicon––––––––––––––––––––––––––– -->
-    <link rel="icon" type="img/png" href="img/favicon3.png"> </head>
+    <link rel="icon" type="img/png" href="img/favicon3.png">
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+    <script src="css/jquery.min.js"></script>
+    <script src="css/jquery2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").toggle();
+                $("#form").toggle();
+                //                $("#formtitle").toggle();
+            });
+        });
+    </script>
+</head>
 
 <body>
     <!--Navigation -->
+    <!--Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand page-scroll" href="#top">Brand Logo</a> </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-1">
+                                <li class=" page-scroll">
+                                    <a id="brand" href="#top"><img src="img/iconweb.png" class="img-responsive" alt=""></a>
+                                </li>
+                            </div>
+                            <div class="col-sm-2 col-sm-offset-1">
+                                <li class="page-scroll"><a href="#populartop">Most Popular</a></li>
+                            </div>
+                            <div class="col-sm-2">
+                                <li class="page-scroll"><a href="#cat">Categories</a></li>
+                            </div>
+                            <div class="col-sm-2">
+                                <li class="page-scroll">
+                                    <a href="#SHARETOP">
+                                        <button>Share</button>
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="col-sm-2">
+                                <li class="page-scroll"><a href="#contact">About & Contact</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--END Navigation -->
+    <!--END Navigation -->
+    <!-- Page Content -->
     <!-- Page Content -->
     <div id="top">
         <div class="container">
@@ -55,6 +117,7 @@
     <!--START MOSTPOPULAR-->
     <!--START MOSTPOPULAR-->
     <div id="popular">
+        <div id="populartop"> </div>
         <div id="mostpopu">
             <div class="container">
                 <h4>MOST POPULAR</h4> </div>
@@ -71,8 +134,9 @@
                                     <h5 class="text-left">SUBARU BRZ</h5>
                                     <h7 class="left">DRIFT</h7>
                                     <h6 class="right">RWD</h6>
-									<br>
-                                    <h6 class="text-right">S2 917</h6> <h6 class="text-right">750 kW</h6></div>
+                                    <br>
+                                    <h6 class="text-right">S2 917</h6>
+                                    <h6 class="text-right">750 kW</h6></div>
                             </div>
                         </div> <img src="img/brz.png" class="img-responsive center-block" alt=""> </a>
                 </div>
@@ -85,8 +149,9 @@
                                     <h5 class="text-left">MAZDA RX-7</h5>
                                     <h7 class="left">DRIFT</h7>
                                     <h6 class="right">RWD</h6>
-<br>
-                                    <h6 class="text-right">S2 915</h6><h6 class="text-right">535 kW</h6> </div>									
+                                    <br>
+                                    <h6 class="text-right">S2 915</h6>
+                                    <h6 class="text-right">535 kW</h6> </div>
                             </div>
                         </div> <img src="img/rx7.png" class="img-responsive center-block" alt=""> </a>
                 </div>
@@ -99,8 +164,9 @@
                                     <h5 class="text-left">LEXUS RC-F</h5>
                                     <h7 class="left">DRIFT</h7>
                                     <h6 class="right">RWD</h6>
-<br>
-                                    <h6 class="text-right">S2 940</h6> <h6 class="text-right">1130 kW</h6></div>									
+                                    <br>
+                                    <h6 class="text-right">S2 940</h6>
+                                    <h6 class="text-right">1130 kW</h6></div>
                             </div>
                         </div> <img src="img/rcf.png" class="img-responsive center-block" alt=""> </a>
                 </div>
@@ -115,8 +181,9 @@
                                     <h5 class="text-left">BMW e36 M3</h5>
                                     <h7 class="left">DRIFT</h7>
                                     <h6 class="right">RWD</h6>
-									<br>
-                                    <h6 class="text-right">S2 905</h6> <h6 class="text-right">749 kW</h6></div>
+                                    <br>
+                                    <h6 class="text-right">S2 905</h6>
+                                    <h6 class="text-right">749 kW</h6></div>
                             </div>
                         </div> <img src="img/m3.png" class="img-responsive center-block" alt=""> </a>
                 </div>
@@ -130,7 +197,8 @@
                                     <h7 class="left">RACING</h7>
                                     <h6 class="right">AWD</h6>
                                     <br>
-                                    <h6 class="text-right">S2 998</h6> <h6 class="text-right">1130 kW</h6></div>
+                                    <h6 class="text-right">S2 998</h6>
+                                    <h6 class="text-right">1130 kW</h6></div>
                             </div>
                         </div> <img src="img/gt.png" class="img-responsive center-block" alt=""> </a>
                 </div>
@@ -143,8 +211,9 @@
                                     <h5 class="text-left">NISSAN R33</h5>
                                     <h7 class="left">DRIFT</h7>
                                     <h6 class="right">RWD</h6>
-                                     <br>
-                                    <h6 class="text-right">S1 868</h6> <h6 class="text-right">463 kW</h6></div>									
+                                    <br>
+                                    <h6 class="text-right">S1 868</h6>
+                                    <h6 class="text-right">463 kW</h6></div>
                             </div>
                         </div> <img src="img/r33.png" class="img-responsive center-block" alt=""> </a>
                 </div>
@@ -196,15 +265,65 @@
     </div>
     <!--END CATEGORIES-->
     <!--END CATEGORIES-->
+    <!--START SHARE-->
+    <!--START SHARE-->
+    <div id="SHARETOP"></div>
+    <div id="SHARE">
+        <div id="shares">
+            <div class="container">
+                <h4 class="shareleft">SHARE</h4>
+                <div class="row">
+                    <div class="col-sm-1 col-sm-offset-9">
+                        <button>
+                            <h41 class="shareright">+</h41>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <iframe id="form" src="../share.html" width="100%" height="3610" frameborder="0"></iframe>
+        </div>
+    </div>
+    <!--END SHARE-->
+    <!--END SHARE-->
+    <div id="shares2">
+        <div class="container"> </div>
+    </div>
     <!-- Footer Content -->
-    <footer>
-        <p>© Pau 2016. All Rights Reserved.</p>
-        <p>Designed by <a target="_blank" href="#">Pau</a></p>
-    </footer>
+    <!-- Footer Content -->
+    <div id="overcontact">
+        <footer class="container-fluid  page-scroll" id="contact">
+            <!--    contact-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h12> HOW DOES FORZA COMMONS WORKS?</h12>
+                        <br>
+                        <p3>Forza commons allows players to share tunes without the restriction of having them locked. The idea behind this project is to give forza players the opportunity to choose the styling parts and fine tuning or get feedback and improvement reccomendations on their own tunes</p3>
+                        <br>
+                        <br>
+                        <br>
+                        <p4>GAMERTG: Pawer8 </p4>
+                        <br>
+                        <p4>TWITTER: Pawer08 </p4>
+                        <!--  <div class="row">
+                        <div class="col-xs-2 col-xs-offset-2"><a class="social" href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></div>
+                        <div class="col-xs-2"><a class="social" href="#"><i class="fa fa-linkedin fa-2x"></i></a></div>
+                        <div class="col-xs-2"><a class="social" href="#"><i class="fa fa-linkedin fa-2x"></i></a></div>
+                        <div class="col-xs-2"><a class="social" href="#"><i class="fa fa-linkedin fa-2x"></i></a></div>
+                    </div> --></div>
+                    <div class="col-sm-6">
+                        <h11 class="text-center">CONTACT</h11>
+                        <script type="text/javascript" src="https://form.jotform.com/jsform/63407117443148"></script>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">© Your Name 2016. All Rights Reserved.</p>
+            <p class="text-center">Designed by <a target="_blank" href="#">Your Name</a></p>
+        </footer>
+    </div>
     <!-- jQuery -->
-    <script src="css/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="css/bootstrap.min.js"></script>
     <!-- MODALS MODALS MODALS -->
     <!-- MODALS MODALS MODALS -->
     <!-- MODALS MODALS MODALS -->
@@ -227,7 +346,11 @@
                             <h8>SUBARU BRZ DRIFT</h8>
                         </div>
                         <div class="col-sm-4">
-                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/brz.png" class="img-responsive img-centered" alt="">  <h61 class="text-right">S2 917</h61> <br><h61 class="text-right">750 kW</h61></div>
+                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/brz.png" class="img-responsive img-centered" alt="">
+                            <h61 class="text-right">S2 917</h61>
+                            <br>
+                            <h61 class="text-right">750 kW</h61>
+                        </div>
                         <!--                    end of left part-->
                         <div class="col-sm-8">
                             <!--<H9>PARTS</H9>-->
@@ -267,7 +390,11 @@
                             <h8>MAZDA RX-7 DRIFT</h8>
                         </div>
                         <div class="col-sm-4">
-                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/rx7.png" class="img-responsive img-centered" alt=""><h61 class="text-right">S2 915</h61><br><h61 class="text-right">535 kW</h61>  </div>
+                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/rx7.png" class="img-responsive img-centered" alt="">
+                            <h61 class="text-right">S2 915</h61>
+                            <br>
+                            <h61 class="text-right">535 kW</h61>
+                        </div>
                         <!--                    end of left part-->
                         <div class="col-sm-8">
                             <!--<H9>PARTS</H9>-->
@@ -299,7 +426,11 @@
                             <h8>LEXUS RC-F DRIFT</h8>
                         </div>
                         <div class="col-sm-4">
-                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/rcf.png" class="img-responsive img-centered" alt=""> <h61 class="text-right">S2 940</h61> <br><h61 class="text-right">1130 kW</h61></div>
+                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/rcf.png" class="img-responsive img-centered" alt="">
+                            <h61 class="text-right">S2 940</h61>
+                            <br>
+                            <h61 class="text-right">1130 kW</h61>
+                        </div>
                         <!--                    end of left part-->
                         <div class="col-sm-8">
                             <!--<H9>PARTS</H9>-->
@@ -330,7 +461,11 @@
                             <h8>BMW e36 M3 DRIFT</h8>
                         </div>
                         <div class="col-sm-4">
-                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/m3.png" class="img-responsive img-centered" alt=""><h61 class="text-right">S2 905</h61><br> <h61 class="text-right">749 kW</h61> </div>
+                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/m3.png" class="img-responsive img-centered" alt="">
+                            <h61 class="text-right">S2 905</h61>
+                            <br>
+                            <h61 class="text-right">749 kW</h61>
+                        </div>
                         <!--                    end of left part-->
                         <div class="col-sm-8">
                             <!--<H9>PARTS</H9>-->
@@ -362,8 +497,11 @@
                             <h8>FORD GT RACING</h8>
                         </div>
                         <div class="col-sm-4">
-                            <!--  Replace the image src path with your own images. The minimum image width is 720px-->
-							<img src="img/gt.png" class="img-responsive img-centered" alt=""><h61 class="text-right">S2 998</h61> <br><h61 class="text-right">1130 kW</h61> </div>
+                            <!--  Replace the image src path with your own images. The minimum image width is 720px--><img src="img/gt.png" class="img-responsive img-centered" alt="">
+                            <h61 class="text-right">S2 998</h61>
+                            <br>
+                            <h61 class="text-right">1130 kW</h61>
+                        </div>
                         <!--                    end of left part-->
                         <div class="col-sm-8">
                             <!--<H9>PARTS</H9>-->
@@ -394,9 +532,11 @@
                         <div class="modalcenter">
                             <h8>NISSAN R33 DRIFT</h8>
                         </div>
-                        <div class="col-sm-4">
-                            <img src="img/r33.png" class="img-responsive img-centered" alt="">
-							<h61 class="text-right">S1 868</h61> <br><h61 class="text-right">463 kW</h61>  </div>
+                        <div class="col-sm-4"> <img src="img/r33.png" class="img-responsive img-centered" alt="">
+                            <h61 class="text-right">S1 868</h61>
+                            <br>
+                            <h61 class="text-right">463 kW</h61>
+                        </div>
                         <!--                    end of left part-->
                         <div class="col-sm-8">
                             <!--<H9>PARTS</H9>-->
@@ -430,66 +570,69 @@
                         <!--DRIFT CARS-->
                         <!--DRIFT CARS-->
                         <!--DRIFT CARS-->
-                       
-                <!-- FIRST IMG ROW -->
-                <!--img1-->
-                <div class="col-sm-4 popular-item">
-                    <a data-dismiss="modal" href="#popularModal1" class="popular-link" data-toggle="modal">
-                        <div class="caption">
-                            <div id="img1">
-                                <div class="caption-content">
-                                    <h5 class="text-left">SUBARU BRZ</h5>
-                                    <h7 class="left">DRIFT</h7>
-                                    <h6 class="right">RWD</h6>
-									<br>
-                                    <h6 class="text-right">S2 917</h6> <h6 class="text-right">750 kW</h6></div>
-                            </div>
-                        </div> <img src="img/brz.png" class="img-responsive center-block" alt=""> </a>
-                </div>
-                <!--img2-->
-                <div class="col-sm-4 popular-item">
-                    <a data-dismiss="modal"  href="#popularModal2" class="popular-link" data-toggle="modal">
-                        <div class="caption">
-                            <div id="img2">
-                                <div class="caption-content">
-                                    <h5 class="text-left">MAZDA RX-7</h5>
-                                    <h7 class="left">DRIFT</h7>
-                                    <h6 class="right">RWD</h6>
-<br>
-                                    <h6 class="text-right">S2 915</h6><h6 class="text-right">535 kW</h6> 								</div>
-                            </div>
-                        </div> <img src="img/rx7.png" class="img-responsive center-block" alt=""> </a>
-                </div>
-                <!--img3-->
-                <div class="col-sm-4 popular-item">
-                    <a data-dismiss="modal" href="#popularModal3" class="popular-link" data-toggle="modal">
-                        <div class="caption">
-                            <div id="img3">
-                                <div class="caption-content">
-                                    <h5 class="text-left">LEXUS RC-F</h5>
-                                    <h7 class="left">DRIFT</h7>
-                                    <h6 class="right">RWD</h6>
-<br>
-                                    <h6 class="text-right">S2 940</h6> <h6 class="text-right">1130 kW</h6>									</div>
-                            </div>
-                        </div> <img src="img/rcf.png" class="img-responsive center-block" alt=""> </a>
-                </div>
-                <!-- END FIRST IMG ROW -->
-                <!-- SECOND IMG ROW -->
-                <!--img4-->
-                <div class="col-sm-4 popular-item">
-                    <a data-dismiss="modal" href="#popularModal4" class="popular-link" data-toggle="modal">
-                        <div class="caption">
-                            <div id="img4">
-                                <div class="caption-content">
-                                    <h5 class="text-left">BMW e36 M3</h5>
-                                    <h7 class="left">DRIFT</h7>
-                                    <h6 class="right">RWD</h6>
-									<br>
-                                    <h6 class="text-right">S2 905</h6> <h6 class="text-right">749 kW</h6></div>
-                            </div>
-                        </div> <img src="img/m3.png" class="img-responsive center-block" alt=""> </a>
-                </div>
+                        <!-- FIRST IMG ROW -->
+                        <!--img1-->
+                        <div class="col-sm-4 popular-item">
+                            <a data-dismiss="modal" href="#popularModal1" class="popular-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div id="img1">
+                                        <div class="caption-content">
+                                            <h5 class="text-left">SUBARU BRZ</h5>
+                                            <h7 class="left">DRIFT</h7>
+                                            <h6 class="right">RWD</h6>
+                                            <br>
+                                            <h6 class="text-right">S2 917</h6>
+                                            <h6 class="text-right">750 kW</h6></div>
+                                    </div>
+                                </div> <img src="img/brz.png" class="img-responsive center-block" alt=""> </a>
+                        </div>
+                        <!--img2-->
+                        <div class="col-sm-4 popular-item">
+                            <a data-dismiss="modal" href="#popularModal2" class="popular-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div id="img2">
+                                        <div class="caption-content">
+                                            <h5 class="text-left">MAZDA RX-7</h5>
+                                            <h7 class="left">DRIFT</h7>
+                                            <h6 class="right">RWD</h6>
+                                            <br>
+                                            <h6 class="text-right">S2 915</h6>
+                                            <h6 class="text-right">535 kW</h6> </div>
+                                    </div>
+                                </div> <img src="img/rx7.png" class="img-responsive center-block" alt=""> </a>
+                        </div>
+                        <!--img3-->
+                        <div class="col-sm-4 popular-item">
+                            <a data-dismiss="modal" href="#popularModal3" class="popular-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div id="img3">
+                                        <div class="caption-content">
+                                            <h5 class="text-left">LEXUS RC-F</h5>
+                                            <h7 class="left">DRIFT</h7>
+                                            <h6 class="right">RWD</h6>
+                                            <br>
+                                            <h6 class="text-right">S2 940</h6>
+                                            <h6 class="text-right">1130 kW</h6> </div>
+                                    </div>
+                                </div> <img src="img/rcf.png" class="img-responsive center-block" alt=""> </a>
+                        </div>
+                        <!-- END FIRST IMG ROW -->
+                        <!-- SECOND IMG ROW -->
+                        <!--img4-->
+                        <div class="col-sm-4 popular-item">
+                            <a data-dismiss="modal" href="#popularModal4" class="popular-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div id="img4">
+                                        <div class="caption-content">
+                                            <h5 class="text-left">BMW e36 M3</h5>
+                                            <h7 class="left">DRIFT</h7>
+                                            <h6 class="right">RWD</h6>
+                                            <br>
+                                            <h6 class="text-right">S2 905</h6>
+                                            <h6 class="text-right">749 kW</h6></div>
+                                    </div>
+                                </div> <img src="img/m3.png" class="img-responsive center-block" alt=""> </a>
+                        </div>
                         <!--img5-->
                         <div class="col-sm-4 popular-item">
                             <a data-dismiss="modal" href="#popularModal6" class="popular-link" data-toggle="modal">
@@ -498,9 +641,11 @@
                                         <div class="caption-content">
                                             <h5 class="text-left">NISSAN R33</h5>
                                             <h7 class="left">DRIFT</h7>
-                                            <h6 class="right">AWD</h6><br>
-                                    <h6 class="text-right">S1 868</h6> <h6 class="text-right">463 kW</h6> 
-                                    </div></div>
+                                            <h6 class="right">AWD</h6>
+                                            <br>
+                                            <h6 class="text-right">S1 868</h6>
+                                            <h6 class="text-right">463 kW</h6> </div>
+                                    </div>
                                 </div> <img src="img/r33.png" class="img-responsive center-block" alt=""> </a>
                         </div>
                         <!--img6-->
@@ -569,8 +714,9 @@
                                             <h5 class="text-left">FORD GT</h5>
                                             <h7 class="left">RACING</h7>
                                             <h6 class="right">AWD</h6>
-											<br>
-                                    <h6 class="text-right">S2 998</h6> <h6 class="text-right">1130 kW</h6> </div>
+                                            <br>
+                                            <h6 class="text-right">S2 998</h6>
+                                            <h6 class="text-right">1130 kW</h6> </div>
                                     </div>
                                 </div> <img src="img/gt.png" class="img-responsive center-block" alt=""> </a>
                         </div>
