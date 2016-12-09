@@ -105,6 +105,14 @@ h4 {
     color: #ffffff;
 }
 
+h41 {
+    text-align: right;
+    font-family: 'Futura', sans-serif;
+    font-size: 38px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
 h5 {
     text-align: Left;
     font-family: 'akz', sans-serif;
@@ -151,6 +159,15 @@ h8 {
     margin-bottom: 20px;
 }
 
+h81 {
+    text-align: left;
+    font-family: 'akz', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 5px;
+}
+
 h9 {
     text-align: center;
     font-family: 'akz', sans-serif;
@@ -169,12 +186,52 @@ h10 {
     margin-left: 5px;
 }
 
+h11 {
+    text-align: center;
+    font-family: 'Futura', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 5px;
+    display: inline-block;
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+
+h12 {
+    text-align: left;
+    font-family: 'akz', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 5px;
+    text-shadow: 0px 0px 16px rgb(255, 255, 255);
+}
+
 .left {
     display: inline-block;
     float: left;
     margin: 0px;
     padding: 0px;
     margin-left: 5px;
+}
+
+.shareleft {
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    padding: 0px;
+    margin-left: 5px;
+}
+
+.shareright {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    padding: 0px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    margin-top: 15px;
 }
 
 .right {
@@ -223,6 +280,22 @@ p23 {
     MARGIN: 0PX;
 }
 
+p3 {
+    font-family: 'akz', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    color: #000000;
+    text-shadow: 0px 0px 12px rgb(255, 255, 255);
+}
+
+p4 {
+    font-family: 'akz', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    color: #000000;
+    text-shadow: 0px 0px 12px rgb(255, 255, 255);
+}
+
 
 /*Top header picture area*/
 
@@ -238,7 +311,7 @@ p23 {
     background-size: cover;
     /*The padding bottom and top setting are expanding the height of header area*/
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 40px;
 }
 
 #top img {
@@ -264,6 +337,101 @@ p23 {
     padding-top: 10px;
     padding-bottom: 30px
 }
+
+
+/*nav*/
+
+
+/*nav*/
+
+
+/*nav*/
+
+
+/*nav*/
+
+
+/*change the background color*/
+
+.navbar {
+    background-color: rgb(38, 34, 35);
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    /*    menu item size*/
+    font-size: 1.2em;
+}
+
+
+/*menu color*/
+
+.navbar-default .navbar-nav .container .row {
+    margin-top: 10px
+}
+
+.navbar-default .navbar-nav .container .row .col-sm-2 > li > a {
+    color: white;
+    font-family: 'Futura', sans-serif;
+    font-size: 20px
+}
+
+
+/*menu hover color*/
+
+.navbar-default .navbar-nav .container .row .col-sm-2 > li > a:hover {
+    color: rgb(234, 45, 130);
+    font-family: 'Futura', sans-serif;
+}
+
+
+/*menu active background and font color*/
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: lavender;
+    color: red;
+}
+
+#brand {
+    display: none;
+    color: aqua;
+    height: 20px
+}
+
+#brand img {
+    height: 30px
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li {
+        width: auto;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    #brand {
+        display: block;
+        font-size: 24px;
+        color: dodgerblue !important;
+        background-color: transparent !important;
+    }
+}
+
+
+/*START POPULAR*/
 
 
 /*START POPULAR*/
@@ -346,6 +514,11 @@ p23 {
 
 #popular * {
     z-index: 2;
+}
+
+#populartop {
+    padding-top: 48px;
+    background-color: #e6e6e6;
 }
 
 #popular #mostpopu {
@@ -503,6 +676,10 @@ p23 {
     2 z-index: 2;
 }
 
+#cat {
+    padding-top: 10px;
+}
+
 #cat #cats {
     background-color: rgb(0, 239, 255);
     margin-bottom: 40px;
@@ -588,6 +765,152 @@ p23 {
 
 
 /*END CATEGORIES*/
+
+
+/*START SHARE*/
+
+
+/*START SHARE*/
+
+#SHARETOP {
+    padding-top: 10px;
+}
+
+#SHARE {
+    background-color: #e6e6e6
+}
+
+#sharebg iframe {
+    margin-top: -50px;
+}
+
+#SHARE #shares {
+    background-color: rgb(254, 234, 0);
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+#SHARE p {
+    display: none;
+    background-color: #e6e6e6
+}
+
+#SHARE #form {
+    background-color: #e6e6e6;
+    display: none;
+}
+
+#sharebg {
+    background-color: #e6e6e6;
+    padding-top: -50px;
+    margin-top: -50px;
+}
+
+#sharebg2 {
+    background-color: #e6e6e6;
+}
+
+#sharemargin {
+    padding-top: 20px;
+    background-color: #e6e6e6;
+}
+
+button {
+    background-color: rgba(1, 1, 1, 0);
+    border: none;
+    text-align: left
+}
+
+#shares2 {
+    background-color: rgb(254, 234, 0);
+    padding-top: 10px;
+}
+
+
+/*END SHARE*/
+
+
+/*END SHARE*/
+
+
+/*START FOOTER*/
+
+
+/*START FOOTER*/
+
+#contact {
+    color: red;
+    /*    change the background image or just use a color*/
+    background-color: rgba(255, 255, 255, 0.4);
+    background-size: cover;
+    padding: 50px;
+}
+
+#overcontact {
+    background: url(../img/contactbg.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact h3 {
+    font-size: 2.5em;
+    color: white;
+}
+
+#contact .row {
+    margin-bottom: 0px;
+}
+
+
+/*.email {
+    padding: 0px;
+    font-size: 2em;
+    /*    set the border for the email information*/
+
+
+/*
+
+border: 2px white solid;
+
+}
+*/
+
+
+/*.social {
+    text-align: center;
+    color: #5bd5eb;
+    display: inline-block;
+    background: darkgray;
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 50px;
+    font-size: 1em;
+    height: 50px;
+    /*adjust the line-height value to center the icons in center*/
+
+
+/*
+    line-height: 3.7em;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+    */
+
+.social:hover {
+    /*    hover color*/
+    background: #97e3f0;
+}
+
+
+/*END FOOTER*/
+
+
+/*END FOOTER*/
 
 
 /*MODALMADNESS DO NOT CROSS*/
